@@ -1,0 +1,15 @@
+import { initializeApp } from 'firebase/app';
+
+// TODO: Replace the following with your app's Firebase project configuration
+const firebaseConfig = {
+    apiKey: "AIzaSyB2g_4fMEExCzf0DGKJg-aW16qshNGETO4",
+    authDomain: "fir-cube-8dc2d.firebaseapp.com",
+    projectId: "fir-cube-8dc2d",
+    storageBucket: "fir-cube-8dc2d.appspot.com",
+    messagingSenderId: "413757349966",
+    appId: "1:413757349966:web:6a2ecfe9ca29543475a31f",
+    measurementId: "G-3VEXWNNJ6L"
+  
+};
+
+const app = initializeApp(firebaseConfig);
